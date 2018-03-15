@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/www/contact/contacts.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/www/editMenu/newORedit.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/www/editMenu/redactor.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/www/filesAdd/logo.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/www/filesAdd/picture.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/www/filesAdd/text.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/www/index.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/www/layout/footer.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/www/layout/header.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/../myweblab.ru/www/Comment&amp;Update/EditNote.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/../myweblab.ru/www/Comment&amp;Update/comments.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/../myweblab.ru/www/Files/photopost.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/../myweblab.ru/www/Files/photos.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/../myweblab.ru/www/another/Search.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/../myweblab.ru/www/another/index.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/../myweblab.ru/www/index.php" charset="windows-1251" />
+  </component>
+</project>

@@ -1,0 +1,309 @@
+
+html, body
+{
+    background:#fff;
+	padding: 0px 0px;
+	fon-size:14px;
+	min-height:100%;
+	min-width:100%;
+	font-family: "Noto Serif";
+	font-weight:400;
+	width: 1150px;
+
+}
+.body{
+	display: block;
+	margin: 0;
+	width: 1150px;
+}
+
+.wrap
+{
+	max-width:1200px;
+	width: 90%;
+    margin: 0 auto;
+	position: relative;
+}
+
+.header
+{
+	margin: 0 auto;
+	width:1150px;
+	border-bottom:5px solid #fff573;
+	background: linear-gradient(to top, #2b39b8, #5e5eb8);
+    z-index: 111;
+}
+
+.logo
+{
+	width: 1150px;
+	height: 400px;
+	border-bottom:1px solid #fff573;
+<!--	background-image: url("Blueberry.jpg"); -->
+	z-index: 111;
+}
+
+.top-menu
+{
+	margin: 0;
+    padding: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.top-menu li
+{
+	display:inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	padding:0px 12px;
+    -webkit-transition:  0.35s;
+    transition:  0.35s;
+}
+
+.top-menu li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.content
+{
+	margin: 0 auto;
+	min-height: 500px;
+	overflow-y: scroll;
+	background: #cbd0ff;
+	width: 1150px;
+}
+
+
+.footer
+{
+	margin: 0 auto;
+	bottom: 0;
+	width: 1150px;
+	border-top:5px solid #fff573;
+	min-height: 50px;
+	background: transparent linear-gradient(to bottom, #2b39b8, #5e5eb8) repeat scroll 0% 0%;
+	color: #fff573;
+	line-height: 50px;
+	font-size:16px;
+}
+
+.entities-table {
+	border-collapse: collapse;
+	margin-top: 50px;
+}
+
+.entities-table td, .entities-table th{
+	padding: 10px 20px;
+	text-align: center;
+	border: 1px solid #ccc;
+	width: 90px;
+}
+
+.entities-table tr td:last-child, .entities-table tr th:last-child{
+	width: 500px;
+}
+
+.mailsign{
+	font-size:16px;
+	padding: 10px;
+}
+
+.mail-form{
+	display: inline-block;
+	flex-direction: column;
+	width: 50%;
+}
+
+.mail-form input{
+	margin: 10px 0;
+}
+
+.header-form{
+	position: absolute;
+	right: 100px;
+	top: 24px;
+	display: flex;
+	align-items: center;
+	display: block;
+}
+
+.header-form input[type="text"]{
+	margin-right: 5px;
+}
+
+@media (max-width: 960px) {
+	.header-form{
+		position: inherit;
+		top:unset;
+		justify-content: flex-end;
+		width: 100%;
+		margin-top: 5px;
+	}
+}
+
+.userform{
+	display: flex;
+	flex-direction: column;
+	width: 97%;
+	justify-content: center;
+	padding: 50px 20px;
+}
+.userform input{
+
+	margin: 5px auto;
+	justify-content: center;
+	width: 250px;
+}
+.userform label{
+	margin: 5px auto;
+	justify-content: center;
+	width: 19%;
+}
+
+a.disabled{
+	pointer-events: none;
+	cursor: default;
+	color: black;
+}
+.users-table{
+	border-collapse: collapse;
+	margin-top: 50px;
+}
+
+
+.users-table td, .users-table th{
+	padding: 10px 20px;
+	text-align: center;
+	border: 1px solid #ccc;
+	width: 90px;
+}
+
+.users-table tr td:first-child, .users-table tr th:first-child {
+	width: 300px;
+}
+
+.ssilka{
+	text-decoration: none;
+	color: white;
+}
+.adduser{
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+}
+.adduser input{
+	margin: 10px 0;
+}
+.adduser input[type="submit"]{
+	width: 100px;
+}
+
+.chous {
+	width: 180px;
+	height: 50px;
+	border-radius: 4px;
+	text-align: center;
+	margin: 25px;
+	cursor: pointer;
+	display: block;
+	font: 14px/50px Tahoma;
+	transition: all 0.18s ease-in-out;
+	border: 1px solid #2b39b8;
+	background: linear-gradient(to top right, #2b39b8, #cbd0ff 20%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0)) top right/500% 500%;
+	color: #2b39b8;
+}
+
+.chous:hover {
+	color: #fff573;
+	background-position: bottom left;
+}
+
+.my {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.chous2 {
+	width: 150px;
+	height: 50px;
+	border-radius: 4px;
+	text-align: center;
+	margin: 25px;
+	cursor: pointer;
+	display: inline-block;
+	font: 14px/50px Tahoma;
+	transition: all 0.18s ease-in-out;
+	border: 1px solid #2b39b8;
+	background: linear-gradient(to top right, #2b39b8, #cbd0ff 20%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0)) top right/500% 500%;
+	color: #2b39b8;
+}
+
+.chous2:hover {
+	color: #fff573;
+	background-position: bottom left;
+}
+
+.my2 {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.item-form{
+	width: 100%;
+}
+
+.item-form input[type="submit"]{
+
+	margin: 10px 0;
+	width: 100px;
+}
+.item-form input {
+	margin: 10px 0;
+	display: block;
+}
+.item-form label{
+	display: block;
+}
+.item-table{
+	border-collapse: collapse;
+	margin-top: 50px;
+}
+.item-table td, .item-table th {
+	padding: 0px 10px;
+	text-align: left;
+	/*border: 1px solid #ccc;*/
+	width: 100px;
+}
+
+.chous3 {
+	width: 150px;
+	height: 30px;
+	border-radius: 4px;
+	text-align: center;
+	margin: 25px;
+	cursor: pointer;
+	display: inline-block;
+	font: 14px/25px Tahoma;
+	transition: all 0.18s ease-in-out;
+	border: 1px solid #2b39b8;
+	background: linear-gradient(to top right, #2b39b8, #cbd0ff 20%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0)) top right/500% 500%;
+	color: #2b39b8;
+}
+
+.chous3:hover {
+	color: #fff573;
+	background-position: bottom left;
+}
